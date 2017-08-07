@@ -18,7 +18,7 @@ namespace PNF
            connTable.Add("ConnDB230", "Data Source=192.168.1.202;Initial Catalog=PnF;User ID=bontonapi;Password=B0nt0nAp!;");
 
           //  connTable.Add("ConnDB230", "Data Source=192.168.1.232;Initial Catalog=PnFTest;User ID=shahdul;Password=Aa123456;");
-            // connTable.Add("ConnDB230", "Data Source=202.84.44.74;Initial Catalog=PnF;User ID=bontonapi;Password=B0nt0nAp!;");
+           
         }
         public SqlConnection getconnection()
         {
