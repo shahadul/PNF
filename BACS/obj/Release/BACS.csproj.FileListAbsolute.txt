@@ -1,0 +1,11 @@
+C:\BACS1111\BACS\bin\BACS.dll.config
+C:\BACS1111\BACS\bin\BACS.dll
+C:\BACS1111\BACS\bin\BACS.pdb
+C:\BACS1111\BACS\obj\Release\BACS.dll
+C:\BACS1111\BACS\obj\Release\BACS.pdb
+C:\BACS\BACS\bin\BACS.dll.config
+C:\BACS\BACS\bin\BACS.dll
+C:\BACS\BACS\bin\BACS.pdb
+C:\BACS\BACS\obj\Release\BACS.dll
+C:\BACS\BACS\obj\Release\BACS.pdb
+C:\BACS\BACS\obj\Release\BACS.csprojResolveAssemblyReference.cache

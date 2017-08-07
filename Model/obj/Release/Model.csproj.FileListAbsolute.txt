@@ -1,0 +1,8 @@
+C:\Projects\PNF\Model\bin\Release\Model.dll
+C:\Projects\PNF\Model\bin\Release\Model.pdb
+C:\Projects\PNF\Model\obj\Release\Model.dll
+C:\Projects\PNF\Model\obj\Release\Model.pdb
+C:\PNF\Model\bin\Release\Model.dll
+C:\PNF\Model\bin\Release\Model.pdb
+C:\PNF\Model\obj\Release\Model.dll
+C:\PNF\Model\obj\Release\Model.pdb

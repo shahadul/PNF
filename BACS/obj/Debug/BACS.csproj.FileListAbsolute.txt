@@ -1,0 +1,12 @@
+C:\Distribution\Distribution\bin\Distribution.dll.config
+C:\Distribution\Distribution\bin\Distribution.dll
+C:\Distribution\Distribution\bin\Distribution.pdb
+C:\Distribution\Distribution\obj\Debug\BACS.csprojResolveAssemblyReference.cache
+C:\Distribution\Distribution\obj\Debug\Distribution.dll
+C:\Distribution\Distribution\obj\Debug\Distribution.pdb
+C:\BACS\BACS\bin\BACS.dll.config
+C:\BACS\BACS\bin\BACS.dll
+C:\BACS\BACS\bin\BACS.pdb
+C:\BACS\BACS\obj\Debug\BACS.csprojResolveAssemblyReference.cache
+C:\BACS\BACS\obj\Debug\BACS.dll
+C:\BACS\BACS\obj\Debug\BACS.pdb

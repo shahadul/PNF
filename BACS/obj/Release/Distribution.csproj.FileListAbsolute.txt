@@ -1,0 +1,18 @@
+E:\DistributionSoft\Distribution\Distribution\bin\Distribution.dll.config
+E:\DistributionSoft\Distribution\Distribution\bin\Distribution.dll
+E:\DistributionSoft\Distribution\Distribution\bin\Distribution.pdb
+E:\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.csprojResolveAssemblyReference.cache
+E:\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.dll
+E:\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.pdb
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\bin\Distribution.dll.config
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\bin\Distribution.dll
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\bin\Distribution.pdb
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.csprojResolveAssemblyReference.cache
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.dll
+E:\Backup\# Last_Backup\Bonton\Distribution\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.pdb
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\bin\Distribution.dll.config
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\bin\Distribution.dll
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\bin\Distribution.pdb
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.csprojResolveAssemblyReference.cache
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.dll
+D:\PROJECTS\DistributionSoft\Distribution\Distribution\obj\Release\Distribution.pdb

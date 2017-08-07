@@ -1,0 +1,6 @@
+C:\Distribution\Distribution\bin\Distribution.dll.config
+C:\Distribution\Distribution\bin\Distribution.dll
+C:\Distribution\Distribution\bin\Distribution.pdb
+C:\Distribution\Distribution\obj\Debug\BASC.csprojResolveAssemblyReference.cache
+C:\Distribution\Distribution\obj\Debug\Distribution.dll
+C:\Distribution\Distribution\obj\Debug\Distribution.pdb

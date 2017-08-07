@@ -1,0 +1,102 @@
+/* here you can put your own css to customize and override the theme */
+/*.menu_img {
+ background: url(../images/arrow-right-double-2.png);
+}*/
+.page-sidebar {
+    width: 220px;
+}
+
+.page-content {
+    margin-left: 200px;
+}
+
+.headerStyle {
+    color: rgb(17, 17, 17) !important;
+    background-color: rgb(80, 124, 209) !important;
+    font-weight: bold !important;
+}
+
+    .headerStyle th {
+        background-color: #6C7E98 !important;
+        /*footerStyle in bootstrap.css linr 2522;*/
+    }
+/*footerStyle start*/
+/*.table-striped > tbody > tr:last-child > td, .table-striped > tbody > tr:last-child footer > th {
+    background-color: #6C7E98 !important;
+}*/
+
+.table > tbody > tr:hover > td, .table-hover > tbody > th {
+    background-color: lightgoldenrodyellow !important;
+}
+
+/*.table > tbody > td, .table-hover > tbody > tr footer { 
+    background-color: rgb(150, 168, 197) !important;
+}*/
+
+/*footerStyle end*/
+
+.btnExtra {
+    margin-top: 21px !important;
+}
+
+.gvPagers a {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(111, 45, 45);
+    background: #E6CACA none repeat scroll 0%;
+}
+
+.gvPagers {
+    color: rgb(111, 45, 45);
+    background-color: rgb(150, 168, 197) !important;
+}
+.gvPagers footer {
+    /*background-color: #6C7E98 !important;*/
+    background-color: rgb(150, 168, 197);
+}
+
+.footerStyle {
+    background-color: #6C7E98 !important;
+}
+
+legend {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    padding: 0.5rem;
+    margin: 0.5rem auto;
+}
+
+.well {
+    padding: 5px;
+}
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    margin-left: 0px;
+}
+
+.header.navbar-fixed-top {
+    z-index: 9995 !important;
+    border-bottom: 1px solid #D2691E !important;
+    border-top: 1px solid azure !important;
+}
+
+.navbar-nav > li > a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-left: 16px;
+}
+
+.footer {
+    border-top: 1px chocolate solid;
+}

@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MpAdmin.master.cs" Inherits="PNF.UI.MP.MpAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>PNF Software</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="PNF Software for Samsung, FDL">
+    <meta content="" name="FDL">
+    <meta name="MobileOptimized" content="320">
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link href="../../design/css" rel="stylesheet" type="text/css">
+    <link href="../../design/font-awesome.min.css" rel="stylesheet" type="text/css">
+  
+    <link href="../../design/simple-line-icons.min.css" rel="stylesheet" type="text/css">
+   <%-- <link href="../../design/bootstrap.min.css" rel="stylesheet" type="text/css">--%>
+    <link href="../../design/uniform.default.css" rel="stylesheet" type="text/css">
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link rel="stylesheet" type="text/css" href="../../design/style.min.css">
+    <!-- END PAGE LEVEL STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link href="../../design/style-conquer.css" rel="stylesheet" type="text/css">
+    <link href="../../design/style.css" rel="stylesheet" type="text/css">
+    <link href="../../design/style-responsive.css" rel="stylesheet" type="text/css">
+    <link href="../../design/plugins.css" rel="stylesheet" type="text/css">
+    <link href="../../design/default.css" rel="stylesheet" type="text/css" id="style_color">
+    <link href="../../design/custom.css" rel="stylesheet" type="text/css">
+    
+        <script src="../../design/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="../../design/bootstrap.min.js" type="text/javascript"></script>
+    <link href="../../design/bootstrap.min.css" rel="stylesheet" />
+        <script src="../../design/app.js"></script>
+        <script src="../../DatePicker/jquery-ui.js"></script>
+   
+        <script src="../../DatePicker/script.js"></script>
+        <link href="../../DatePicker/jquery-ui.css" rel="stylesheet" />
+        <link href="../../DatePicker/style.css" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+     
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+   <%-- <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css">--%>
+    <style type="text/css">
+        .sub-menu {
+            background-color: chocolate !important;
+        }
+    </style>
+    <!-- END THEME STYLES -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<!-- END HEAD -->
+
+<!-- BEGIN BODY -->
+<body class="page-header-fixed">
+    <form runat="server" id="form1" >
+        <asp:ScriptManager runat="server"></asp:ScriptManager>
+        <asp:UpdateProgress runat="server" ID="PageUpdateProgress">
+            <ProgressTemplate>
+                Loading...
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <asp:UpdatePanel runat="server" ID="upnlMaster" >
+            <ContentTemplate>
+                <!-- BEGIN HEADER -->
+                <div class="header navbar  navbar-fixed-top">
+                    <!-- BEGIN TOP NAVIGATION BAR -->
+                    <div class="header-inner">
+                        <!-- BEGIN LOGO -->
+                        <div class="page-logo" style="padding-top: 10px; text-shadow: none !important; color: rgb(255, 255, 255); font-weight: bold;">
+                           
+                            <img style="height: 4em; width: 17em; margin: -1em 0 0 -1em" src="../../images/power_plus_logo.png" />
+                            <%-- <p style="font-size: 18px;">BAC System</p>--%>
+                        </div>
+                       
+                        <!-- END LOGO -->
+                        <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                        <a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <img src="../../design/menu-toggler.png" alt="">
+                        </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<!-- END RESPONSIVE MENU TOGGLER --><!-- BEGIN TOP NAVIGATION MENU --><ul class="nav navbar-nav pull-right">
+                            <%-- <li class="devider">&nbsp;
+                            </li>--%>
+                            <!-- BEGIN USER LOGIN DROPDOWN -->
+
+                            <li style="border-right: 1px solid black; border-top: 1px solid chocolate;">
+                             
+                                <a style="background-color: #F6F6F6;">
+                                    <span class="username"><%--Nick --%>
+                                        <i class="fa fa-user"></i>
+                                        <asp:Label runat="server" ID="lblUserName"></asp:Label>
+                                    </span></a>
+                              
+                            </li>
+
+                            <%-- <li class="devider">&nbsp;
+                            </li>--%>
+                            <li>
+                                <a href="../../login.aspx"><i class="fa fa-key"></i>Log Out</a>
+                            </li>
+                            <!-- END USER LOGIN DROPDOWN -->
+                        </ul>
+                        <!-- END TOP NAVIGATION MENU -->
+                    </div>
+                    <!-- END TOP NAVIGATION BAR -->
+                </div>
+                <!-- END HEADER -->
+                <div class="clearfix">
+                </div>
+                <!-- BEGIN CONTAINER -->
+                <div class="page-container">
+                    <!-- BEGIN SIDEBAR -->
+                    <div class="page-sidebar-wrapper">
+                        <div class="page-sidebar navbar-collapse collapse" id="menu" runat="server">
+                            <!-- BEGIN SIDEBAR MENU -->
+
+                            <%--<div id="menu" runat="server"></div>--%>
+
+                            <!-- END SIDEBAR MENU -->
+                        </div>
+                    </div>
+                    <!-- END SIDEBAR ------------------------------------------------------------------------------------->
+                    <!-- BEGIN CONTENT -->
+                    <div class="page-content-wrapper">
+                        <div class="page-content" style="min-height: 817px">
+                            <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                    </div>
+                    <!-- END CONTENT ------------------------------------------------------------------------------------->
+                </div>
+                <!-- END CONTAINER -->
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <!-- BEGIN FOOTER -->
+        <div class="footer">
+            <div class="footer-inner">
+                2015 © Fair Solutions Ltd.
+            
+            <div class="footer-tools">
+                <span class="go-top">
+                    <i class="fa fa-angle-up"></i>
+                </span>
+            </div>
+            </div>
+        </div>
+        <!-- END FOOTER -->
+
+        <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- BEGIN CORE PLUGINS -->
+
+    
+
+       
+    </form>
+</body>
+</html>
